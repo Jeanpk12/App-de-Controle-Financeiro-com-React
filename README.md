@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# App de Controle Financeiro com React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este repositório contém um aplicativo de controle financeiro desenvolvido em React. Ele oferece uma solução simples e eficaz para o rastreamento de transações financeiras, permitindo que os usuários registrem suas receitas e despesas de maneira fácil e visualizem um resumo claro de suas finanças.
 
-## Available Scripts
+![image](https://github.com/Jeanpk12/App-de-Controle-Financeiro-com-React/assets/122842874/3ba55d8d-9ab3-418a-ba05-8191ca047772)
 
-In the project directory, you can run:
 
-### `npm start`
+## Funcionalidades Principais
+- **Adição de Transações:** Utilize o formulário para adicionar novas transações, fornecendo informações como descrição, valor e categoria (receita ou despesa).
+- **Rastreamento Automático:** O aplicativo atualiza automaticamente as estatísticas financeiras com base nas transações registradas, proporcionando uma visão instantânea das receitas, despesas e saldo total.
+- **Armazenamento Local:** As transações são armazenadas localmente no navegador, garantindo a persistência dos dados entre as sessões.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Como Utilizar
+1. **Clone o Repositório:**
+    ```bash
+    git clone https://github.com/seu-usuario/App-de-Controle-Financeiro-com-React.git
+    cd App-de-Controle-Financeiro-com-React
+    ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Instale as Dependências:**
+    ```bash
+    npm install
+    ```
 
-### `npm test`
+3. **Inicie a Aplicação:**
+    ```bash
+    npm start
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. **Acesse o Aplicativo:**
+   Abra o navegador e acesse http://localhost:3000.
 
-### `npm run build`
+## Estrutura de Arquivos
+- **App.js:** Ponto de entrada principal, contendo a lógica central e a renderização dos componentes.
+- **Header.js:** Componente de cabeçalho.
+- **Resume.js:** Componente de resumo exibindo valores de receita, despesa e total.
+- **Form.js:** Componente de formulário para adicionar novas transações.
+- **GlobalStyles.js:** Arquivo de estilos globais.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Bibliotecas Utilizadas
+- **React:** Biblioteca principal para construção de interfaces de usuário.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Explore, modifique e adapte este aplicativo conforme necessário para atender às suas necessidades específicas de controle financeiro. Sinta-se à vontade para contribuir, reportar problemas ou sugerir melhorias. ¡Controle suas finanças com facilidade usando este aplicativo desenvolvido com React! 📊💸
